@@ -1,4 +1,4 @@
-#lang scheme
+#lang racket/base
 
 ; List of Selenium commands, their arities and return types.
 ; Used in api.ss to define and provide a suite of proper Scheme functions.

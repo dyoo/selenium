@@ -1,6 +1,7 @@
-#lang scheme
+#lang racket/base
 
-(require net/url)
+(require net/url
+         racket/contract)
 
 (define-struct selenium-config
   (server-url browser browser-url session-id timeout)

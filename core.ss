@@ -1,6 +1,8 @@
-#lang scheme
+#lang racket/base
 
-(require net/base64
+(require racket/match
+         racket/contract
+         net/base64
          net/url
          "config.ss")
 

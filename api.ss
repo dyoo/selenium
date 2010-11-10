@@ -1,8 +1,10 @@
-#lang scheme
+#lang racket/base
 
-(require (for-syntax scheme/match
+(require (for-syntax racket/match
+                     racket/base
                      "api-internal.ss")
          net/url
+         racket/contract
          "config.ss"
          "core.ss")
 

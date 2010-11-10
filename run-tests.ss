@@ -1,4 +1,4 @@
-#lang scheme
+#lang racket/base
 
 (require "core-test.ss"
          "test-base.ss")
